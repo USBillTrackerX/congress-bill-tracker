@@ -63,4 +63,4 @@ jobs:
         with:
           name: logs-${{ github.run_number }}
           path: bill_tracker.log
-          retention-days: 7
+          retention-days: 7 
