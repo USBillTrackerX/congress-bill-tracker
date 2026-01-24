@@ -4,7 +4,7 @@ name: Congress Bill Tracker
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 * * * *'  # Every hour at minute 10
+    - cron: '0 * * * *'  # Every hour at minute 10
 
 jobs:
   track-bills:
